@@ -1,5 +1,0 @@
-{
-    "appService.showBuildDuringDeployPrompt": false,
-    "appService.defaultWebAppToDeploy": "/subscriptions/20783b09-e6e2-4e0e-9c90-59c5b2143903/resourceGroups/myWebsite/providers/Microsoft.Web/sites/smartproductrecommender",
-    "appService.deploySubpath": ""
-}
