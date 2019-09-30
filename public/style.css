@@ -748,7 +748,7 @@ button:focus {
 }
 
 .mu-apps-screenshot-slider {
-
+	float:left;
 }
 
 .mu-single-screeshot {
