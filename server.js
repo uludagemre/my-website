@@ -12,7 +12,6 @@ app.get('/',function (req, res) {
 //console.log("Server is listening");
 //});
 var port = process.env.PORT;
-port = 3000;
 app.listen(port,process.env.IP, function() { 
   console.log('Server listening wiht port : '+port ); 
 });
