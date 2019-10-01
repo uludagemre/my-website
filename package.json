@@ -1,16 +1,21 @@
 {
-  "name": "emrecim",
+  "name": "website",
   "version": "1.0.0",
-  "description": "nope",
+  "description": "[![Design Studio Preview](https://position2.github.io/free-bootstrap-theme-ds/images/template/design-studio.jpg)](https://position2.github.io/free-bootstrap-theme-ds/)",
   "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaForBusAd/website.git"
+  },
+  "author": "volkan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavaForBusAd/website/issues"
+  },
+  "homepage": "https://github.com/JavaForBusAd/website#readme",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "emre ulu",
-  "license": "ISC"
-}
+  }
