@@ -1,4 +1,3 @@
-
 var express = require('express');
 var app = express();
 app.use(express.static('public'));
@@ -8,11 +7,8 @@ app.get('/',function (req, res) {
   console.log("Get request has been made!");
 });
 
-//app.listen(3000,function(){
-//console.log("Server is listening");
-//});
-var port = process.env.PORT;
-app.listen(port,process.env.IP, function() { 
-  console.log('Server listening wiht port : '+port ); 
+app.listen(process.env.PORT,process.env.IP, function() { 
+  console.log('Server listening'); 
 });
+
 

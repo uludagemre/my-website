@@ -1,5 +1,5 @@
 {
-  "name": "volkancim",
+  "name": "emrecim",
   "version": "1.0.0",
   "description": "nope",
   "main": "server.js",
@@ -11,6 +11,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "volky",
+  "author": "emre ulu",
   "license": "ISC"
 }
